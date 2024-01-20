@@ -1,5 +1,6 @@
 .faixas-container {
     margin-top: 200px;
+    margin-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;

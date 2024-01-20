@@ -7,7 +7,7 @@
 }
 
 .menu-container ul {
-    padding: 8px;
+    padding: 5px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -18,15 +18,14 @@
 
 .menu-container li {
 
-    margin: 8PX 10px;
+    margin: 3px 10px;
 }
 
 .menu-container a {
     font-family: 'Open Sans', sans-serif;
     padding: 2px 8px;
     text-decoration: none;
-    font-weight: 600;
-    font-size: 1.2em;
+    font-weight: 400;
     color: white;
 }
 
