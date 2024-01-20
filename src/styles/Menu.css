@@ -9,6 +9,7 @@
 .menu-container ul {
     padding: 8px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     text-align: center;
     justify-content: space-evenly;
@@ -16,7 +17,8 @@
 }
 
 .menu-container li {
-    margin: 5px;
+
+    margin: 8PX 10px;
 }
 
 .menu-container a {

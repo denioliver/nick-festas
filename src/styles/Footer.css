@@ -1,6 +1,7 @@
 .footer-container {
-    position: absolute;
+    position: fixed;
     bottom: 0;
+    background-color: black;
     align-items: center;
     width: 100%;
     text-align: center;
@@ -9,6 +10,7 @@
 .footer-container p {
     text-align: center;
     font-weight: 400;
-    font-size: 1.2em;
-    padding-bottom: 15px;
+
+    padding: 5px;
+    color: white;
 }

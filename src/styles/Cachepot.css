@@ -1,0 +1,27 @@
+.cachepot-container {
+    margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.card-cachepot {
+    width: 250px;
+    height: 280px;
+    background-color: white;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card-cachepot img {
+    width: 240px;
+    align-items: center;
+    margin: 15px 2px;
+}
+
+.card-cachepot p {
+    margin: 5px 0px;
+}

@@ -1,14 +1,19 @@
 .header-container {
-    background-color: #f7f7f7;
+    background-color: #e6e6e6;;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header-container div {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 10px;
 }
 
 .header-container p {
     font-size: 2em;
     font-weight: 700;
     color: orangered;
-    text-shadow: rgba(0, 0, 0, 0.891) 3px 3px 4px;
+    text-shadow: rgba(0, 0, 0, 0.63) 3px 3px 4px;
 }

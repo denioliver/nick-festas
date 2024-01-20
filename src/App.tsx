@@ -1,16 +1,20 @@
+import React from 'react';
+import { HashRouter } from 'react-router-dom';
 import './App.css';
-import Footer from './components/Footer';
 import Header from './components/Header';
-import Home from './components/Home';
-import Menu from './components/Menu';
+import Content from './content/Content';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div>
-      <Header />
-      <Menu />
-      <Home />
-      <Footer />
+      <React.StrictMode>
+        <HashRouter>
+          <Header />
+          <Content />
+          <Footer />
+        </HashRouter>
+      </React.StrictMode>
     </div>
   );
 }

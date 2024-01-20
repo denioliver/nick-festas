@@ -1,30 +1,23 @@
 import '../styles/Menu.css';
+import { Link } from 'react-router-dom';
+import { listProducts } from '../ts/listProducts';
 
 function Menu() {
   return (
     <nav className="menu-container">
       <ul>
         <li>
-          <a href="*">Inicio</a>
+          <Link to="/">Inicio</Link>
         </li>
-        <li>
-          <a href="*">Salgadeiras</a>
-        </li>
-        <li>
-          <a href="*">Forminhas</a>
-        </li>
-        <li>
-          <a href="*">Faixas</a>
-        </li>
-        <li>
-          <a href="*">Cache pote</a>
-        </li>
-        <li>
-          <a href="*">Paineis</a>
-        </li>
-        <li>
-          <a href="*">Velas</a>
-        </li>
+        {
+            listProducts.map((category, index) => {
+              return Object.keys(category).map((key) => (
+                <li key={ `${index}-${key}` }>
+                  <Link to={ `/${key.toLowerCase()}` }>{key}</Link>
+                </li>
+              ));
+            })
+          }
       </ul>
     </nav>
   );
