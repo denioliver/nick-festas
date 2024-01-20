@@ -90,8 +90,56 @@ export const listProducts = [
         img: '../img/cache-pote-prata.jpeg',
         description: 'metalico',
       },
+      {
+        product: 'Cache pote dourado',
+        price: '3,00',
+        img: '../img/cache-pote-dourado.jpeg',
+        description: 'metalico',
+      },
+      {
+        product: 'Cache pote prata',
+        price: '3,00',
+        img: '../img/cache-pote-prata.jpeg',
+        description: 'metalico',
+      },
+      {
+        product: 'Cache pote dourado',
+        price: '3,00',
+        img: '../img/cache-pote-dourado.jpeg',
+        description: 'metalico',
+      },
+      {
+        product: 'Cache pote prata',
+        price: '3,00',
+        img: '../img/cache-pote-prata.jpeg',
+        description: 'metalico',
+      },
     ],
     Faixas: [
+      {
+        product: 'Faixa gratidão dourada',
+        price: '3,00',
+        img: '../img/faixa-dourada.jpeg',
+        description: 'metalico',
+      },
+      {
+        product: 'Faixa gratidão prata',
+        price: '3,00',
+        img: '../img/faixa-prata.jpeg',
+        description: 'metalico',
+      },
+      {
+        product: 'Faixa parabéns dourada',
+        price: '3,00',
+        img: '../img/faixa-dourada.jpeg',
+        description: 'metalico',
+      },
+      {
+        product: 'Faixa parabéns prata',
+        price: '3,00',
+        img: '../img/faixa-prata.jpeg',
+        description: 'metalico',
+      },
       {
         product: 'Faixa gratidão dourada',
         price: '3,00',
@@ -130,8 +178,56 @@ export const listProducts = [
         img: '../img/topo-prata.jpeg',
         description: 'metalico',
       },
+      {
+        product: 'Topo natal',
+        price: '3,00',
+        img: '../img/topo-dourado.jpeg',
+        description: 'metalico',
+      },
+      {
+        product: 'Topo carnaval',
+        price: '3,00',
+        img: '../img/topo-prata.jpeg',
+        description: 'metalico',
+      },
+      {
+        product: 'Topo natal',
+        price: '3,00',
+        img: '../img/topo-dourado.jpeg',
+        description: 'metalico',
+      },
+      {
+        product: 'Topo carnaval',
+        price: '3,00',
+        img: '../img/topo-prata.jpeg',
+        description: 'metalico',
+      },
     ],
     Forminhas: [
+      {
+        product: 'Forminha dourada',
+        price: '3,00',
+        img: '../img/forminha-dourada.jpeg',
+        description: 'metalico',
+      },
+      {
+        product: 'Forminha prata',
+        price: '3,00',
+        img: '../img/forminha-prata.jpeg',
+        description: 'metalico',
+      },
+      {
+        product: 'Forminha dourada',
+        price: '3,00',
+        img: '../img/forminha-dourada.jpeg',
+        description: 'metalico',
+      },
+      {
+        product: 'Forminha prata',
+        price: '3,00',
+        img: '../img/forminha-prata.jpeg',
+        description: 'metalico',
+      },
       {
         product: 'Forminha dourada',
         price: '3,00',

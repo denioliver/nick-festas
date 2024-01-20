@@ -32,7 +32,7 @@ function Menu() {
     <nav className="menu-container">
       <ul>
         <span id="burguer" className="material-symbols-outlined">
-          menu
+          list
         </span>
         <li className="menu-tela">
           <Link to="/">Inicio</Link>
