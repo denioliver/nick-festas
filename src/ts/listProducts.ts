@@ -20,7 +20,61 @@ export const listProducts = [
         product: 'Salgadeira neon',
         price: '3,00',
         img: '../img/salgadeira-neon.jpeg',
-        description: 'metalico',
+        description: 'Neon',
+      },
+      {
+        product: 'Salgadeira metalizada',
+        price: '3,00',
+        img: imgSalgadeiraDourada,
+        description: 'Dourada',
+      },
+      {
+        product: 'Salgadeira metalizada',
+        price: '3,00',
+        img: imgSalgadeiraPrata,
+        description: 'Prata',
+      },
+      {
+        product: 'Salgadeira neon',
+        price: '3,00',
+        img: '../img/salgadeira-neon.jpeg',
+        description: 'Neon',
+      },
+      {
+        product: 'Salgadeira metalizada',
+        price: '3,00',
+        img: imgSalgadeiraDourada,
+        description: 'Dourada',
+      },
+      {
+        product: 'Salgadeira metalizada',
+        price: '3,00',
+        img: imgSalgadeiraPrata,
+        description: 'Prata',
+      },
+      {
+        product: 'Salgadeira neon',
+        price: '3,00',
+        img: '../img/salgadeira-neon.jpeg',
+        description: 'Neon',
+      },
+      {
+        product: 'Salgadeira metalizada',
+        price: '3,00',
+        img: imgSalgadeiraDourada,
+        description: 'Dourada',
+      },
+      {
+        product: 'Salgadeira metalizada',
+        price: '3,00',
+        img: imgSalgadeiraPrata,
+        description: 'Prata',
+      },
+      {
+        product: 'Salgadeira neon',
+        price: '3,00',
+        img: '../img/salgadeira-neon.jpeg',
+        description: 'Neon',
       },
     ],
     Cachepot: [
@@ -39,13 +93,25 @@ export const listProducts = [
     ],
     Faixas: [
       {
-        product: 'Faixa dourada',
+        product: 'Faixa gratidão dourada',
         price: '3,00',
         img: '../img/faixa-dourada.jpeg',
         description: 'metalico',
       },
       {
-        product: 'Faixa prata',
+        product: 'Faixa gratidão prata',
+        price: '3,00',
+        img: '../img/faixa-prata.jpeg',
+        description: 'metalico',
+      },
+      {
+        product: 'Faixa parabéns dourada',
+        price: '3,00',
+        img: '../img/faixa-dourada.jpeg',
+        description: 'metalico',
+      },
+      {
+        product: 'Faixa parabéns prata',
         price: '3,00',
         img: '../img/faixa-prata.jpeg',
         description: 'metalico',
@@ -53,13 +119,13 @@ export const listProducts = [
     ],
     Topos: [
       {
-        product: 'Topo dourado',
+        product: 'Topo natal',
         price: '3,00',
         img: '../img/topo-dourado.jpeg',
         description: 'metalico',
       },
       {
-        product: 'Topo prata',
+        product: 'Topo carnaval',
         price: '3,00',
         img: '../img/topo-prata.jpeg',
         description: 'metalico',
