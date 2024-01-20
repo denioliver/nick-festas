@@ -19,6 +19,7 @@
 
 .card-salgadeiras img {
     width: 240px;
+    height: 160px;
     align-items: center;
     margin: 15px 2px;
 }
@@ -27,12 +28,19 @@
     margin: 5px 0px;
 }
 
-@media (max-width: 500px){
+@media (max-width: 730px){
+    .salgadeiras-container {
+        margin-top: 160px;
+    }
+
     .card-salgadeiras {
         width: 150px;
+        height: 240px;
+        margin-top: 10px;
     }
 
     .card-salgadeiras img {
         width: 145px;
+        height: 100px;
     }
 }

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap');
 
+
 .menu-container {
     background-color: orangered;
     box-shadow: rgba(0, 0, 0, 0.533) 0px 3px 4px;
@@ -16,9 +17,17 @@
     list-style: none;
 }
 
-.menu-container li {
+#burguer {
+    display: none;
+}
 
+.menu-tela {
     margin: 3px 10px;
+    
+}
+
+.menu-mobile {
+    display: none;
 }
 
 .menu-container a {
@@ -33,4 +42,28 @@
     font-weight: bolder;
 
     border-bottom: white solid 1px;
+}
+
+@media (max-width: 730px){
+    .menu-container ul {
+        flex-direction: column;
+    }
+
+    #burguer {
+        display: block;
+        color: white;
+    }
+
+    .menu-tela {
+        display: none;
+    }
+
+    .menu-mobile {
+        padding: 5px;
+    }
+
+    #burguer:hover {
+        color: black;
+        cursor: pointer;
+    }
 }

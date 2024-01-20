@@ -18,7 +18,7 @@
     text-shadow: rgba(0, 0, 0, 0.63) 3px 3px 4px;
 }
 
-@media (max-width: 500px){
+@media (max-width: 730px){
     .header-container p {
         font-size:  1em;
         text-align: center;
@@ -26,5 +26,6 @@
 
     .header-container img {
         width: 100px;
+        margin: 5px;
     }
 }
