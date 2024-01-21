@@ -73,7 +73,7 @@ function Home() {
             nossos produtos e condições especiais para revendedores.
           </p>
           <hr />
-          <p>
+          <p id="contato">
             <b>
               Endereço:
             </b>
@@ -82,7 +82,7 @@ function Home() {
             <br />
             <b>Telefone:</b>
             {' '}
-            [Número de telefone]
+            [Número ]
           </p>
           {/*
 
