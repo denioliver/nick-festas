@@ -5,6 +5,7 @@ import Cachepot from '../components/Cachepot';
 import Forminhas from '../components/Forminhas';
 import Topos from '../components/Topos';
 import Faixas from '../components/Faixas';
+import Piramides from '../components/Piramides';
 
 function Content() {
   return (
@@ -16,6 +17,7 @@ function Content() {
         <Route path="/forminhas" element={ <Forminhas /> } />
         <Route path="/topos" element={ <Topos /> } />
         <Route path="/faixas" element={ <Faixas /> } />
+        <Route path="/piramides" element={ <Piramides /> } />
       </Routes>
     </section>
   );

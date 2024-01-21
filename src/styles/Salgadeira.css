@@ -24,6 +24,12 @@
     margin: 15px 2px;
 }
 
+.card-salgadeiras img:target {
+    position:fixed;
+    width: 50%;
+    top: 300px;
+}
+
 .card-salgadeiras p {
     margin: 5px 0px;
 }

@@ -1,4 +1,4 @@
-.topos-container {
+.piramides-container {
     margin-top: 200px;
     margin-bottom: 30px;
     display: flex;
@@ -8,7 +8,7 @@
     text-align: center;
 }
 
-.card-topos {
+.card-piramides {
     width: 250px;
     height: 280px;
     background-color: white;
@@ -17,30 +17,30 @@
     border-radius: 10px;
 }
 
-.card-topos img {
-    width: 130px;
+.card-piramides img {
+
     height: 160px;
     align-items: center;
     margin: 15px 2px;
 }
 
-.card-topos p {
+.card-piramides p {
     margin: 5px 0px;
 }
 
 @media (max-width: 730px){
-    .topos-container {
+    .piramides-container {
         margin-top: 160px;
     }
 
-    .card-topos {
+    .card-piramides {
         width: 150px;
         height: 260px;
         margin-top: 10px;
     }
 
-    .card-topos img {
-        width: 70px;
+    .card-piramides img {
+
         height: 100px;
     }
 }
