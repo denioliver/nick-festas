@@ -10,22 +10,59 @@
 
 .card-piramides {
     width: 250px;
-    height: 280px;
-    background-color: white;
+    height: 330px;
+    background-color: rgb(224, 222, 222);
     margin: 5px;
     padding: 10px;
     border-radius: 10px;
 }
 
 .card-piramides img {
-
     height: 160px;
     align-items: center;
     margin: 15px 2px;
 }
 
+.btnOpenImg {
+    margin-top: 10px;
+    padding: 5px 30px;
+    background-color: rgb(255, 186, 186);
+    color: darkred;
+    border: none;
+    border-radius: 8px;
+    outline: 0;
+    cursor: pointer;
+}
+
+.btnOpenImg:hover {
+    background-color: lightcoral ;
+    color: whitesmoke;
+}
+
+.card-piramides img:target {
+    position:fixed;
+    width: 50%;
+    top: 300px;
+}
+
 .card-piramides p {
     margin: 5px 0px;
+}
+
+#closeImg {
+    background-color: red;
+    color: white;
+    box-shadow: white 0px 0px 8px;
+    position: fixed;
+    width: 40px;
+    margin: 10px;
+    padding: 5PX;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    z-index: 99999999999999999999999999;
 }
 
 @media (max-width: 730px){
@@ -35,12 +72,15 @@
 
     .card-piramides {
         width: 150px;
-        height: 260px;
+        height: 290px;
         margin-top: 10px;
     }
 
     .card-piramides img {
-
         height: 100px;
+    }
+
+    .btnOpenImg {
+        font-size: 0.65em;
     }
 }
