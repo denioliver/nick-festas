@@ -50,6 +50,7 @@
     }
 
     #burguer {
+        font-size: 2em;
         display: block;
         color: white;
     }
