@@ -1,80 +1,55 @@
-import imgSalgadeiraDourada from '../img/salgadeira-dourada.jpeg';
-import imgSalgadeiraPrata from '../img/salgadeira-prata.jpeg';
+import imgSalgadeiraDourada from '../img/imgSalgadeiras/salgadeira-dourada.jpeg';
+import imgSalgadeiraPrata from '../img/imgSalgadeiras/salgadeira-prata.jpeg';
+import imgSalgadeiraVerde from '../img/imgSalgadeiras/salgadeira-verde.jpeg';
+import imgSalgadeiraVerdeEscuro from '../img/imgSalgadeiras/salgadeira-verde-escuro.jpeg';
+import imgSalgadeiraAzulBB from '../img/imgSalgadeiras/salgadeira-azul-bb.jpeg';
+import imgSalgadeiraAzulEscuro from '../img/imgSalgadeiras/salgadeira-azul-escuro.jpeg';
+import imgSalgadeiraAmarela from '../img/imgSalgadeiras/salgadeira-amarela.jpeg';
 
 export const listProducts = [
   {
     Salgadeira: [
       {
         product: 'Salgadeira metalizada',
-        price: '3,00',
+        price: '3,00 und',
         img: imgSalgadeiraDourada,
         description: 'Dourada',
       },
       {
         product: 'Salgadeira metalizada',
-        price: '3,00',
+        price: '3,00 und',
         img: imgSalgadeiraPrata,
         description: 'Prata',
       },
       {
-        product: 'Salgadeira neon',
-        price: '3,00',
-        img: '../img/salgadeira-neon.jpeg',
-        description: 'Neon',
+        product: 'Salgadeira',
+        price: '3,00 und',
+        img: imgSalgadeiraVerde,
+        description: 'Verde',
       },
       {
-        product: 'Salgadeira metalizada',
-        price: '3,00',
-        img: imgSalgadeiraDourada,
-        description: 'Dourada',
+        product: 'Salgadeira',
+        price: '3,00 und',
+        img: imgSalgadeiraVerdeEscuro,
+        description: 'Verde escuro',
       },
       {
-        product: 'Salgadeira metalizada',
-        price: '3,00',
-        img: imgSalgadeiraPrata,
-        description: 'Prata',
+        product: 'Salgadeira',
+        price: '3,00 und',
+        img: imgSalgadeiraAzulBB,
+        description: 'Azul bebe',
       },
       {
-        product: 'Salgadeira neon',
-        price: '3,00',
-        img: '../img/salgadeira-neon.jpeg',
-        description: 'Neon',
+        product: 'Salgadeira',
+        price: '3,00 und',
+        img: imgSalgadeiraAzulEscuro,
+        description: 'Azul ESCURO',
       },
       {
-        product: 'Salgadeira metalizada',
-        price: '3,00',
-        img: imgSalgadeiraDourada,
-        description: 'Dourada',
-      },
-      {
-        product: 'Salgadeira metalizada',
-        price: '3,00',
-        img: imgSalgadeiraPrata,
-        description: 'Prata',
-      },
-      {
-        product: 'Salgadeira neon',
-        price: '3,00',
-        img: '../img/salgadeira-neon.jpeg',
-        description: 'Neon',
-      },
-      {
-        product: 'Salgadeira metalizada',
-        price: '3,00',
-        img: imgSalgadeiraDourada,
-        description: 'Dourada',
-      },
-      {
-        product: 'Salgadeira metalizada',
-        price: '3,00',
-        img: imgSalgadeiraPrata,
-        description: 'Prata',
-      },
-      {
-        product: 'Salgadeira neon',
-        price: '3,00',
-        img: '../img/salgadeira-neon.jpeg',
-        description: 'Neon',
+        product: 'Salgadeira',
+        price: '3,00 und',
+        img: imgSalgadeiraAmarela,
+        description: 'amarelo',
       },
     ],
     Cachepot: [
