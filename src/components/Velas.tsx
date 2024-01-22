@@ -3,6 +3,7 @@ import * as React from 'react';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 import { Box } from '@mui/material';
+import { BiCollapse } from 'react-icons/bi';
 import { listProducts } from '../ts/listProducts';
 
 function Velas() {
@@ -21,7 +22,7 @@ function Velas() {
       {listProducts.map((products) => products.Velas.flatMap((product) => (
         <div className="card-velas" key={ product.product }>
           <h3>{product.product}</h3>
-          <img src={ product.img } alt="" />
+          <img src={ product.img } alt="" onClick={ () => handleOpen(product) } />
           <p>{product.description}</p>
           <p>
             <b>R$:</b>
@@ -50,9 +51,7 @@ function Velas() {
                 variant="h6"
                 component="h2"
               >
-                <p id="closeImg">
-                  X
-                </p>
+                <BiCollapse id="closeImg" />
               </Typography>
             </Box>
           </Modal>

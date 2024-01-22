@@ -21,11 +21,10 @@
     width: 240px;
     height: 160px;
     align-items: center;
-    margin: 15px 2px;
+    margin: 5px 2px;
 }
 
 .btnOpenImg {
-    margin-top: 10px;
     padding: 5px 30px;
     background-color: rgb(255, 186, 186);
     color: darkred;

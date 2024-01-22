@@ -1,8 +1,11 @@
+/* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
+/* eslint-disable jsx-a11y/click-events-have-key-events */
 import '../styles/Piramides.css';
 import * as React from 'react';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 import { Box } from '@mui/material';
+import { BiCollapse } from 'react-icons/bi';
 import { listProducts } from '../ts/listProducts';
 
 function Piramides() {
@@ -21,7 +24,7 @@ function Piramides() {
       {listProducts.map((products) => products.Piramides.flatMap((product) => (
         <div className="card-piramides" key={ product.product }>
           <h3>{product.product}</h3>
-          <img src={ product.img } alt="" />
+          <img src={ product.img } alt="" onClick={ () => handleOpen(product) } />
           <p>{product.description}</p>
           <p>
             <b>R$:</b>
@@ -50,9 +53,7 @@ function Piramides() {
                 variant="h6"
                 component="h2"
               >
-                <p id="closeImg">
-                  X
-                </p>
+                <BiCollapse id="closeImg" />
               </Typography>
             </Box>
           </Modal>
