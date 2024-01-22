@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgb(255, 186, 186);
+    background-color: rgb(233, 233, 233);
 }
 
 .header-container p {

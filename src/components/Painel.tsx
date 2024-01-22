@@ -42,7 +42,7 @@ function Painel() {
           >
             <Box>
               <Typography id="modal-modal-description" sx={ { mt: 2 } }>
-                <img id="imgModalMobile" src={ product.img } alt="" />
+                <img id="imgModal-Painel" src={ product.img } alt="" />
               </Typography>
               <Typography
                 onClick={ handleClose }

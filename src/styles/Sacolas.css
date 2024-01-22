@@ -66,6 +66,7 @@
 }
 
 #imgModalSacolas {
+    border: black 5px solid;
     width: 30%;
     position: absolute;
     top: 50%;

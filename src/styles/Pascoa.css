@@ -18,10 +18,9 @@
 }
 
 .card-pascoa img {
-    width: 240px;
-    height: 160px;
+    height: 135px;
     align-items: center;
-    margin: 15px 2px;
+    margin: 15px 0px;
 }
 
 .btnOpenImg {
@@ -38,12 +37,6 @@
 .btnOpenImg:hover {
     background-color: lightcoral ;
     color: whitesmoke;
-}
-
-.card-pascoa img:target {
-    position:fixed;
-    width: 50%;
-    top: 300px;
 }
 
 .card-pascoa p {
@@ -71,8 +64,7 @@
     }
 
     .card-pascoa img {
-        width: 145px;
-        height: 100px;
+        height: 85px;
     }
 
     .btnOpenImg {

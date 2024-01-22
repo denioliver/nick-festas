@@ -51,6 +51,7 @@
 }
 
 #imgModalVelas{
+    border: black 5px solid;
     width: 25%;
     position: absolute;
     top: 50%;

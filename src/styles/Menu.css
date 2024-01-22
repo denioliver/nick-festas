@@ -2,12 +2,18 @@
 @keyframes movey {
     from {
         opacity: 0;
-        transform: translatey(-20%);
+        transform: translatey(30%);
         }
     to {
         opacity: 1;
         transform: translatey(0%);
         }
+}
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .menu-container a:hover {
@@ -18,10 +24,11 @@
 
 #ulMenu {
     padding: 5px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: left;
+    justify-content: space-evenly;
     list-style: none;
     background-color: orangered;
     box-shadow: rgba(0, 0, 0, 0.533) 0px 3px 4px;
@@ -33,7 +40,6 @@
 }
 
 #burguer {
-    margin-left: 20px;
     color: white;
     display: flex;
     cursor: pointer;
@@ -49,21 +55,9 @@
     font-size: 1em;
 }
 
-.menu-tela {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-left: 25px;
-    text-align: center;
-    color: white;
-    
-}
-
 .menu-tela a {
     text-decoration: none;
     color: white;
-    margin: 0px;
     font-weight: bolder;
     text-shadow: black 1px 1px 4px;
 }
@@ -82,11 +76,11 @@
     display: none;
     align-items: center;
     justify-content: center;
-    margin-left: 25px;
     margin-top: 5px;
     width: 300px;
     list-style: none;
     background-color: orangered;
+    border: rgba(0, 0, 0, 0.36) 2px solid;
     border-radius: 0px 0px 5px 5px;
     box-shadow: rgba(0, 0, 0, 0.533) 0px 3px 4px;
     animation-name: movey;
@@ -123,7 +117,7 @@
 @media (max-width: 730px){
     #ulMenu {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
     }
 
     .menu-container ul {

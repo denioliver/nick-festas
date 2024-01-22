@@ -42,7 +42,7 @@ function Faixas() {
           >
             <Box>
               <Typography id="modal-modal-description" sx={ { mt: 2 } }>
-                <img id="imgModalMobile" src={ product.img } alt="" />
+                <img id="imgModal-Faixas" src={ product.img } alt="" />
               </Typography>
               <Typography
                 onClick={ handleClose }

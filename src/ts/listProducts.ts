@@ -15,10 +15,12 @@ import imgSalgadeiraBranca from '../img/imgSalgadeiras/salgadeira-branca.jpeg';
 import imgSalgadeiraPreta from '../img/imgSalgadeiras/salgadeira-preta.jpeg';
 import imgSalgadeiraVioleta from '../img/imgSalgadeiras/salgadeira-violeta.jpeg';
 import imgSalgadeiraVermelha from '../img/imgSalgadeiras/salgadeira-vermelha.jpeg';
+import imgSalgadeiraPascoa from '../img/imgSalgadeiras/salgadeira-pascoa.jpeg';
 // cachepot
 import imgCachepotPrata from '../img/imgCachepot/cachepot-prata.jpeg';
 import imgCachepotDourado from '../img/imgCachepot/cachepot-dourado.jpeg';
-// pitamides
+import imgCachepotPascoa from '../img/imgCachepot/cachepot-pascoa.jpeg';
+// piramides
 import imgPiramidesGliterPrata from '../img/imgPiramides/piramides-gliter-prata.jpeg';
 import imgPiramidesGliterPrata2 from '../img/imgPiramides/piramides-gliter-prata2.jpeg';
 import imgPiramidesGliterDourada from '../img/imgPiramides/piramides-gliter-dourada.jpeg';
@@ -31,6 +33,7 @@ import imgPiramidesGliterVioleta from '../img/imgPiramides/piramides-gliter-viol
 import imgPiramidesPRosas from '../img/imgPiramides/piramides-personalizada-rosas.jpeg';
 import imgPiramidesPCoracoes from '../img/imgPiramides/piramides-personalizada-coracoes.jpeg';
 import imgPiramidesPEstrelasV from '../img/imgPiramides/piramides-personalizada-estrelas-violeta.jpeg';
+import imgPiramidesPascoa from '../img/imgPiramides/piramides-cenoura.jpeg';
 // topos
 import imgTopoAniRosa from '../img/imgTopos/topo-aniversario-rosa.jpeg';
 import imgTopoAniAzul from '../img/imgTopos/topo-aniversario-azul.jpeg';
@@ -291,6 +294,48 @@ export const listProducts = [
     ],
     Velas: [
       {
+        product: nameVelaP,
+        price: priceVelaP,
+        img: imgVelaMiniVermelha,
+        description: 'Vermelha',
+      },
+      {
+        product: nameVelaP,
+        price: priceVelaP,
+        img: imgVelaMiniAzul,
+        description: 'Azul',
+      },
+      {
+        product: nameVelaP,
+        price: priceVelaP,
+        img: imgVelaMiniDourada,
+        description: 'Dourada',
+      },
+      {
+        product: nameVelaP,
+        price: priceVelaP,
+        img: imgVelaMiniBranca,
+        description: 'Branca',
+      },
+      {
+        product: nameVelaP,
+        price: priceVelaP,
+        img: imgVelaMiniRosa0,
+        description: 'Rosa',
+      },
+      {
+        product: nameVelaP,
+        price: priceVelaP,
+        img: imgVelaMiniRosaBB,
+        description: 'Rosa bebe',
+      },
+      {
+        product: nameVelaP,
+        price: priceVelaP,
+        img: imgVelaMiniPrata,
+        description: 'Prata',
+      },
+      {
         product: nameVelaM,
         price: priceVelaM,
         img: imgVelaMediaDourada,
@@ -332,55 +377,6 @@ export const listProducts = [
         img: imgVelaMediaVermelha,
         description: 'Vermelha',
       },
-      {
-        product: nameVelaP,
-        price: priceVelaP,
-        img: imgVelaMiniVermelha,
-        description: 'Vermelha',
-
-      },
-      {
-        product: nameVelaP,
-        price: priceVelaP,
-        img: imgVelaMiniAzul,
-        description: 'Azul',
-
-      },
-      {
-        product: nameVelaP,
-        price: priceVelaP,
-        img: imgVelaMiniDourada,
-        description: 'Dourada',
-
-      },
-      {
-        product: nameVelaP,
-        price: priceVelaP,
-        img: imgVelaMiniBranca,
-        description: 'Branca',
-
-      },
-      {
-        product: nameVelaP,
-        price: priceVelaP,
-        img: imgVelaMiniRosa0,
-        description: 'Rosa',
-
-      },
-      {
-        product: nameVelaP,
-        price: priceVelaP,
-        img: imgVelaMiniRosaBB,
-        description: 'Rosa bebe',
-
-      },
-      {
-        product: nameVelaP,
-        price: priceVelaP,
-        img: imgVelaMiniPrata,
-        description: 'Prata',
-
-      },
     ],
     Salgadeira: [
       {
@@ -397,7 +393,7 @@ export const listProducts = [
       },
       {
         product: 'Salgadeira',
-        price: '3,00 und',
+        price: '1,30 und',
         img: imgSalgadeiraVerde,
         description: 'Verde',
       },
@@ -412,6 +408,12 @@ export const listProducts = [
         price: '1,30 und',
         img: imgSalgadeiraAzulBB,
         description: 'Azul bebe',
+      },
+      {
+        product: 'Salgadeira',
+        price: '2,00 und',
+        img: imgSalgadeiraPascoa,
+        description: 'Pascoa',
       },
       {
         product: 'Salgadeira',
@@ -737,15 +739,21 @@ export const listProducts = [
       },
       {
         product: 'Pirâmide personalizada',
-        price: '3,00 | Pct c/ 6 und',
+        price: '3,50 | Pct c/ 6 und',
         img: imgPiramidesPCoracoes,
         description: 'Corações',
       },
       {
         product: 'Pirâmide personalizada',
-        price: '3,00 | Pct c/ 6 und',
+        price: '3,50 | Pct c/ 6 und',
         img: imgPiramidesPEstrelasV,
         description: 'Estrelas/Violeta',
+      },
+      {
+        product: 'Pirâmide personalizada',
+        price: '3,05 | Pct c/ 10 und',
+        img: imgPiramidesPascoa,
+        description: 'Pascoa',
       },
     ],
     Cachepot: [
@@ -762,10 +770,10 @@ export const listProducts = [
         description: 'Prata',
       },
       {
-        product: 'Cache pote',
-        price: '0,95 und',
-        img: '',
-        description: 'Prata',
+        product: 'Cache pote metalizado',
+        price: '1,60 und',
+        img: imgCachepotPascoa,
+        description: 'Pascoa',
       },
     ],
     Faixas: [

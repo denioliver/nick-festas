@@ -49,6 +49,7 @@
     margin: 5px 0px;
 }
 
+
 #closeImg {
     background-color: red;
     color: white;
@@ -65,22 +66,34 @@
     z-index: 99999999999999999999999999;
 }
 
+#imgModal-Piramides {
+    border: black 5px solid;
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 @media (max-width: 730px){
     .piramides-container {
         margin-top: 160px;
     }
-
+    
     .card-piramides {
         width: 150px;
         height: 290px;
         margin-top: 10px;
     }
-
+    
     .card-piramides img {
         height: 100px;
     }
-
+    
     .btnOpenImg {
         font-size: 0.65em;
+    }
+    #imgModal-Piramides {
+        width: 85%;
     }
 }

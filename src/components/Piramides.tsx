@@ -42,7 +42,7 @@ function Piramides() {
           >
             <Box>
               <Typography id="modal-modal-description" sx={ { mt: 2 } }>
-                <img id="imgModalMobile" src={ product.img } alt="" />
+                <img id="imgModal-Piramides" src={ product.img } alt="" />
               </Typography>
               <Typography
                 onClick={ handleClose }

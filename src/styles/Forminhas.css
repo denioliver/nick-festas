@@ -50,6 +50,15 @@
     margin: 5px 0px;
 }
 
+#imgModal-Forminhas {
+    border: black 5px solid;
+    width: 25%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 @media (max-width: 730px){
     .forminhas-container {
         margin-top: 160px;

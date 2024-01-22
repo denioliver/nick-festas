@@ -39,10 +39,7 @@ function Menu() {
           </span>
         </div>
         <li className="menu-tela">
-          <Link to="/">Inicio</Link>
-          <span className="material-symbols-outlined">
-            home
-          </span>
+          <Link onClick={ hideMenuMobile } to="/">Home</Link>
         </li>
       </ul>
       <ul className="menu-mobile" style={ { display: menuMobileDisplay } }>
