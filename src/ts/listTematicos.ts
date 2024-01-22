@@ -14,12 +14,19 @@ import imgSacolaPascoa from '../img/imgSacola/sacola-pascoa.jpeg';
 import imgForminha4pPascoa from '../img/imgForminhas/forminha-4p-pascoa.jpeg';
 import imgTopoPascoa from '../img/imgTopos/topo-pascoa.jpeg';
 import imgForminhaMPascoa from '../img/imgForminhas/forminha-morceguinho-pascoa.jpeg';
+import imgPPirulitoCoelho from '../img/imgPortaPirulito/porta-pirulito-coelho.jpeg';
 // carnaval
 import imgPainelCarnaval from '../img/imgPaineis/painel-carnaval.jpeg';
 
 export const listTematicos = [
   {
     Pascoa: [
+      {
+        product: 'Porta pirulito',
+        price: '2,50 und',
+        img: imgPPirulitoCoelho,
+        description: 'Coelho',
+      },
       {
         product: 'Sacola',
         price: '7,80 und',
@@ -45,14 +52,14 @@ export const listTematicos = [
         description: 'Pascoa',
       },
       {
-        product: 'Caixa ovo',
-        price: '2,00 und',
+        product: 'Caixa de ovo',
+        price: '2,80 und',
         img: imgCxOvo6x6,
         description: 'Pascoa',
       },
       {
-        product: 'Bem casado Personalizado',
-        price: '4,75 | Pct c/ 10 und',
+        product: 'Bem casado',
+        price: '4,10 | Pct c/ 10 und',
         img: imgBemCasadoPascoa,
         description: 'Coelho',
       },
