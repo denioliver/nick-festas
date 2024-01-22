@@ -66,6 +66,14 @@
     z-index: 99999999999999999999999999;
 }
 
+#imgModalSalgadeiras {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 @media (max-width: 730px){
     .salgadeiras-container {
         margin-top: 160px;
@@ -84,5 +92,9 @@
 
     .btnOpenImg {
         font-size: 0.65em;
+    }
+
+    #imgModalSalgadeiras {
+        width: 90%;
     }
 }

@@ -1,0 +1,72 @@
+.painel-container {
+    margin-top: 200px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.card-painel {
+    width: 250px;
+    height: 330px;
+    background-color: rgb(224, 222, 222);
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card-painel img {
+    width: 240px;
+    height: 160px;
+    align-items: center;
+    margin: 15px 2px;
+}
+
+.btnOpenImg {
+    margin-top: 10px;
+    padding: 5px 30px;
+    background-color: rgb(255, 186, 186);
+    color: darkred;
+    border: none;
+    border-radius: 8px;
+    outline: 0;
+    cursor: pointer;
+}
+
+.btnOpenImg:hover {
+    background-color: lightcoral ;
+    color: whitesmoke;
+}
+
+.card-painel img:target {
+    position:fixed;
+    width: 50%;
+    top: 300px;
+}
+
+.card-painel p {
+    margin: 5px 0px;
+}
+
+@media (max-width: 730px){
+    .painel-container {
+        margin-top: 160px;
+    }
+
+    .card-painel {
+        width: 150px;
+        height: 290px;
+        margin-top: 10px;
+    }
+
+    .card-painel img {
+        width: 145px;
+        height: 100px;
+    }
+
+    .btnOpenImg {
+        font-size: 0.65em;
+    }
+}

@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import '../styles/Menu.css';
 import { Link } from 'react-router-dom';
 import { listProducts } from '../ts/listProducts';
+import { listTematicos } from '../ts/listTematicos';
 
 function Menu() {
   const [menuMobileDisplay, setMenuMobileDisplay] = useState('none');
@@ -30,36 +31,48 @@ function Menu() {
 
   return (
     <nav className="menu-container">
-      <ul>
-        <span id="burguer" className="material-symbols-outlined">
-          list
-        </span>
+      <ul id="ulMenu">
+        <div id="burguer">
+          <p>Produtos</p>
+          <span className="material-symbols-outlined">
+            expand_more
+          </span>
+        </div>
         <li className="menu-tela">
           <Link to="/">Inicio</Link>
+          <span className="material-symbols-outlined">
+            home
+          </span>
         </li>
-        {listProducts.map((category, index) => {
-          return Object.keys(category).map((key) => (
-            <li className="menu-tela" key={ `${index}-${key}` }>
-              <Link to={ `/${key.toLowerCase()}` }>
-                {key}
-              </Link>
-            </li>
-          ));
-        })}
-        <li className="menu-mobile" style={ { display: menuMobileDisplay } }>
-          <Link to="/" onClick={ hideMenuMobile }>
-            Inicio
-          </Link>
-          {listProducts.map((category, index) => {
-            return Object.keys(category).map((key) => (
-              <li className="menu-mobile-link" key={ `${index}-${key}` }>
-                <Link to={ `/${key.toLowerCase()}` } onClick={ hideMenuMobile }>
-                  {key}
-                </Link>
-              </li>
-            ));
-          })}
-        </li>
+      </ul>
+      <ul className="menu-mobile" style={ { display: menuMobileDisplay } }>
+        <div id="listDiv">
+          <li>
+            {listProducts.map((category, index) => {
+              return Object.keys(category).map((key) => (
+                <li className="menu-mobile-link" key={ `${index}-${key}` }>
+                  <Link to={ `/${key.toLowerCase()}` } onClick={ hideMenuMobile }>
+                    {key}
+                  </Link>
+                </li>
+              ));
+            })}
+          </li>
+          <li id="tematicos">
+            <p>
+              Temáticos
+            </p>
+            {listTematicos.map((tematico, indici) => {
+              return Object.keys(tematico).map((keyTema) => (
+                <li className="menu-mobile-link" key={ `${indici}-${keyTema}` }>
+                  <Link to={ `/${keyTema.toLowerCase()}` } onClick={ hideMenuMobile }>
+                    {keyTema}
+                  </Link>
+                </li>
+              ));
+            })}
+          </li>
+        </div>
       </ul>
     </nav>
   );

@@ -5,14 +5,6 @@ import Modal from '@mui/material/Modal';
 import { Box } from '@mui/material';
 import { listProducts } from '../ts/listProducts';
 
-const style = {
-  position: 'absolute' as const,
-  top: '50%',
-  left: '50%',
-  transform: 'translate(-50%, -50%)',
-  width: '75%',
-};
-
 function Cachepot() {
   const [openProduct, setOpenProduct] = React.useState(null);
 
@@ -50,7 +42,7 @@ function Cachepot() {
           >
             <Box>
               <Typography id="modal-modal-description" sx={ { mt: 2 } }>
-                <img style={ style } src={ product.img } alt="" />
+                <img id="imgModalMobile" src={ product.img } alt="" />
               </Typography>
               <Typography
                 onClick={ handleClose }
