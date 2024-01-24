@@ -38,6 +38,7 @@ import imgPiramidesPascoa from '../img/imgPiramides/piramides-cenoura.jpeg';
 import imgTopoAniRosa from '../img/imgTopos/topo-aniversario-rosa.jpeg';
 import imgTopoAniAzul from '../img/imgTopos/topo-aniversario-azul.jpeg';
 import imgTopoPais from '../img/imgTopos/topo-dia-dos-pais.jpeg';
+import imgTopoParabens from '../img/imgTopos/topo-parabens.jpeg';
 // paineis
 import imgPainelFlamengo from '../img/imgPaineis/painel-flamengo.jpeg';
 import imgPainelCorinthians from '../img/imgPaineis/painel-corinthians.jpeg';
@@ -813,6 +814,12 @@ export const listProducts = [
         product: 'Topo Feliz Aniversario',
         price: '3,20 | 3 tags',
         img: imgTopoAniRosa,
+        description: 'Rosa',
+      },
+      {
+        product: 'Topo Parabéns',
+        price: '3,20 | 3 tags',
+        img: imgTopoParabens,
         description: 'Rosa',
       },
       {

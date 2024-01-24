@@ -24,7 +24,7 @@ function Sacolas() {
       {listProducts.map((products) => products.Sacolas.flatMap((product) => (
         <div className="card-sacolas" key={ product.product }>
           <h3>{product.product}</h3>
-          <img src={ product.img } alt="" onClick={ () => handleOpen(product) } />
+          <img onClick={ () => handleOpen(product) } src={ product.img } alt="" />
           <p>{product.description}</p>
           <p>
             <b>R$:</b>
