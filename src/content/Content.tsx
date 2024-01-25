@@ -11,6 +11,7 @@ import Velas from '../components/Velas';
 import Sacolas from '../components/Sacolas';
 import Pascoa from '../components/Pascoa';
 import Carnaval from '../components/Carnaval';
+import Caixinhas from '../components/Caixinhas';
 
 function Content() {
   return (
@@ -28,6 +29,7 @@ function Content() {
         <Route path="/sacolas" element={ <Sacolas /> } />
         <Route path="/pascoa" element={ <Pascoa /> } />
         <Route path="/carnaval" element={ <Carnaval /> } />
+        <Route path="/caixinhas" element={ <Caixinhas /> } />
       </Routes>
     </section>
   );

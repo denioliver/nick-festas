@@ -119,6 +119,28 @@ import imgSacolaChaves from '../img/imgSacola/sacola-chaves.jpeg';
 import imgSacolaMoana from '../img/imgSacola/sacola-moana.jpeg';
 import imgSacolaMickeyBb from '../img/imgSacola/sacola-mickey-bb.jpeg';
 import imgSacolaMarshaUrso from '../img/imgSacola/sacola-marsha.jpeg';
+// forminhas
+import imgForminhaPrata from '../img/imgForminhas/forminha-metalica-prata.jpeg';
+import imgForminhaDourada from '../img/imgForminhas/forminha-metalica-dourada.jpeg';
+import imgForminhaAcetato from '../img/imgForminhas/forminha-acetato.jpeg';
+import imgForminhaMAzul from '../img/imgForminhas/forminha-metalizada-azul.jpeg';
+import imgForminhaMPink from '../img/imgForminhas/forminha-metalizada-pink.jpeg';
+import imgForminhaMVermelha from '../img/imgForminhas/forminha-metalizada-vermelha.jpeg';
+import imgForminhaMVerde from '../img/imgForminhas/forminha-metalizda-verde.jpeg';
+// caixinhas
+import imgCaixinhaRosaBB from '../img/imgCaixinhas/caixinha-2doces-rosabb.jpeg';
+import imgCaixinhaLilas from '../img/imgCaixinhas/caixinha-2doces-lilas.jpeg';
+import imgCaixinhaPink from '../img/imgCaixinhas/caixinha-2doces-pink.jpeg';
+import imgCaixinhaLaranja from '../img/imgCaixinhas/caixinha-2doces-laranja.jpeg';
+import imgCaixinhaAmarelo from '../img/imgCaixinhas/caixinha-2doces-amarelo.jpeg';
+import imgCaixinhaAzulBB from '../img/imgCaixinhas/caixinha-2doces-azulbb.jpeg';
+import imgCaixinhaAzulEscuro from '../img/imgCaixinhas/caixinha-2doces-azul-escuro.jpeg';
+import imgCaixinhaVerdeEscuro from '../img/imgCaixinhas/caixinha-2doces-verde-escuro.jpeg';
+import imgCaixinhaVerdebb from '../img/imgCaixinhas/caixinha-2doces-verdebb.jpeg';
+import imgCaixinhaBranca from '../img/imgCaixinhas/caixinha-2doces-branca.jpeg';
+import imgCaixinhaPreta from '../img/imgCaixinhas/caixinha-2doces-preta.jpeg';
+import imgCaixinhaMetalizada from '../img/imgCaixinhas/caixinha-2doces-metalizada.jpeg';
+import imgCaixinha6x6Metalizada from '../img/imgCaixinhas/caixinha-6x6-metalizada.jpeg';
 
 const pricePainel = '7,90 und';
 const nameProduct = 'Painel 44x64';
@@ -734,13 +756,13 @@ export const listProducts = [
       },
       {
         product: 'Pirâmide personalizada',
-        price: '3,50 | Pct c/ 6 und',
+        price: '3,05 | Pct c/ 6 und',
         img: imgPiramidesPRosas,
         description: 'Rosas',
       },
       {
         product: 'Pirâmide personalizada',
-        price: '3,50 | Pct c/ 6 und',
+        price: '3,05 | Pct c/ 6 und',
         img: imgPiramidesPCoracoes,
         description: 'Corações',
       },
@@ -837,40 +859,133 @@ export const listProducts = [
     ],
     Forminhas: [
       {
-        product: 'Forminha dourada',
-        price: '3,00',
-        img: '../img/forminha-dourada.jpeg',
-        description: 'metalico',
+        product: 'Forminha 4petalas metalizada',
+        price3cm: '3,50',
+        img: imgForminhaDourada,
+        description: 'Dourada | Pct c/ 25 und',
       },
       {
-        product: 'Forminha prata',
-        price: '3,00',
-        img: '../img/forminha-prata.jpeg',
-        description: 'metalico',
+        product: 'Forminha 4petalas metalizada',
+        price3cm: '3,50',
+        img: imgForminhaPrata,
+        description: 'Prata | Pct c/ 25 und',
       },
       {
-        product: 'Forminha dourada',
-        price: '3,00',
-        img: '../img/forminha-dourada.jpeg',
-        description: 'metalico',
+        product: 'Forminha 4petalas',
+        price3cm: '3,50',
+        img: imgForminhaAcetato,
+        description: 'Acetato | Pct c/ 25 und',
       },
       {
-        product: 'Forminha prata',
-        price: '3,00',
-        img: '../img/forminha-prata.jpeg',
-        description: 'metalico',
+        product: 'Forminha 4petalas metalizada',
+        price3cm: '3,50',
+        img: imgForminhaMAzul,
+        description: 'Azul | Pct c/ 25 und',
       },
       {
-        product: 'Forminha dourada',
-        price: '3,00',
-        img: '../img/forminha-dourada.jpeg',
-        description: 'metalico',
+        product: 'Forminha 4petalas metalizada',
+        price3cm: '3,50',
+        img: imgForminhaMPink,
+        description: 'Pink | Pct c/ 25 und',
       },
       {
-        product: 'Forminha prata',
-        price: '3,00',
-        img: '../img/forminha-prata.jpeg',
-        description: 'metalico',
+        product: 'Forminha 4petalas metalizada',
+        price3cm: '3,50 ',
+        img: imgForminhaMVermelha,
+        description: 'Vermelha | Pct c/ 25 und',
+      },
+      {
+        product: 'Forminha 4petalas metalizada',
+        price3cm: '3,50 ',
+        img: imgForminhaMVerde,
+        description: 'Verde | Pct c/ 25 und',
+      },
+      // {
+      //   product: 'Forminha 4petalas metalizada',
+      //   price3cm: '3,50',
+      //   price4x4cm: '4,50',
+      //   img: imgForminhaMAzul,
+      //   description: 'Azul',
+      // },
+    ],
+    Caixinhas: [
+      {
+        product: 'Caixinha p/ 2 doces metalizada',
+        price: '1,35 und',
+        img: imgCaixinha6x6Metalizada,
+        description: 'Dourada/Prata',
+      },
+      {
+        product: 'Caixinha p/ 2 doces metalizada',
+        price: '1,70 und',
+        img: imgCaixinhaMetalizada,
+        description: 'Dourada/Prata',
+      },
+      {
+        product: 'Caixinha p/ 2 doces',
+        price: '1,45 und',
+        img: imgCaixinhaRosaBB,
+        description: 'Rosa bebe',
+      },
+      {
+        product: 'Caixinha p/ 2 doces',
+        price: '1,45 und',
+        img: imgCaixinhaLilas,
+        description: 'Lilás',
+      },
+      {
+        product: 'Caixinha p/ 2 doces',
+        price: '1,45 und',
+        img: imgCaixinhaPink,
+        description: 'Pink',
+      },
+      {
+        product: 'Caixinha p/ 2 doces',
+        price: '1,45 und',
+        img: imgCaixinhaLaranja,
+        description: 'Laranja',
+      },
+      {
+        product: 'Caixinha p/ 2 doces',
+        price: '1,45 und',
+        img: imgCaixinhaAmarelo,
+        description: 'Amarelo',
+      },
+      {
+        product: 'Caixinha p/ 2 doces',
+        price: '1,45 und',
+        img: imgCaixinhaAzulBB,
+        description: 'Azul bebe',
+      },
+      {
+        product: 'Caixinha p/ 2 doces',
+        price: '1,45 und',
+        img: imgCaixinhaAzulEscuro,
+        description: 'Azul escuro',
+      },
+      {
+        product: 'Caixinha p/ 2 doces',
+        price: '1,45 und',
+        img: imgCaixinhaVerdeEscuro,
+        description: 'Verde escuro',
+      },
+      {
+        product: 'Caixinha p/ 2 doces',
+        price: '1,45 und',
+        img: imgCaixinhaVerdebb,
+        description: 'Verde',
+      },
+      {
+        product: 'Caixinha p/ 2 doces',
+        price: '1,45 und',
+        img: imgCaixinhaBranca,
+        description: 'Branca',
+      },
+      {
+        product: 'Caixinha p/ 2 doces',
+        price: '1,45 und',
+        img: imgCaixinhaPreta,
+        description: 'Preta',
       },
     ],
   },

@@ -1,6 +1,6 @@
-/* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
-import '../styles/Forminhas.css';
+/* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
+import '../styles/Caixinhas.css';
 import * as React from 'react';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
@@ -8,7 +8,7 @@ import { Box } from '@mui/material';
 import { BiCollapse } from 'react-icons/bi';
 import { listProducts } from '../ts/listProducts';
 
-function Forminhas() {
+function Caixinhas() {
   const [openProduct, setOpenProduct] = React.useState(null);
 
   const handleOpen = (product: any) => {
@@ -20,23 +20,20 @@ function Forminhas() {
   };
 
   return (
-    <section className="forminhas-container">
-      {listProducts.map((products) => products.Forminhas.flatMap((product) => (
-        <div className="card-forminhas" key={ product.product }>
+    <section className="caixinhas-container">
+      {listProducts.map((products) => products.Caixinhas.flatMap((product) => (
+        <div className="card-caixinhas" key={ product.product }>
           <h3>{product.product}</h3>
-          <img src={ product.img } alt="" onClick={ () => handleOpen(product) } />
+          <img
+            src={ product.img }
+            onClick={ () => handleOpen(product) }
+            alt=""
+          />
           <p>{product.description}</p>
           <p>
-            <b>3cm - R$:</b>
+            <b>R$:</b>
             {' '}
-            {product.price3cm}
-          </p>
-          <p>
-            <b>
-              { product.price4x4cm ? '4x4 - RS ' : ' ' }
-            </b>
-            {' '}
-            {product.price4x4cm}
+            {product.price}
           </p>
           <button
             className="btnOpenImg"
@@ -52,7 +49,7 @@ function Forminhas() {
           >
             <Box>
               <Typography id="modal-modal-description" sx={ { mt: 2 } }>
-                <img id="imgModal-Forminhas" src={ product.img } alt="" />
+                <img id="imgModal-Caixinhas" src={ product.img } alt="" />
               </Typography>
               <Typography
                 onClick={ handleClose }
@@ -70,4 +67,4 @@ function Forminhas() {
   );
 }
 
-export default Forminhas;
+export default Caixinhas;
