@@ -917,7 +917,7 @@ export const listProducts = [
     ],
     Caixinhas: [
       {
-        product: 'Caixinha p/ 2 doces metalizada',
+        product: 'Caixinha 6x6 metalizada',
         price: '1,35 und',
         img: imgCaixinha6x6Metalizada,
         description: 'Dourada/Prata',
