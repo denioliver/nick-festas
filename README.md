@@ -1,30 +1,41 @@
-# React + TypeScript + Vite
+# Catalogo Nick Festas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um catálogo de produtos da loja Nick Festas.
 
-Currently, two official plugins are available:
+[Acesse a página do projeto](https://nickfestas.surge.sh/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidades
 
-## Expanding the ESLint configuration
+O aplicativo possui varias paginas:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Ao clicar em "**Produtos**" na barra de menu irá renderizar uma aba com varios temas, cada tema redireciona para a pagina referente ao tipo de produto ou ao tema designado.
+  Como por exemplo:
+  - Salgadeiras - Renderiza tdos os tipos de salgadeiras.
+  - Pascoa - Renderiza todos os produtos relacionados ao tema.
+- Ao clicar em "**Home**" na barra de menu irá renderizar apagina inicial.
 
-- Configure the top-level `parserOptions` property like this:
+## Tecnologias Utilizadas
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- React + TypeScript + Vite
+  - React Router DOM
+  - React Icons
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Como Executar o Projeto
+
+Para executar o projeto localmente, você pode seguir estes passos:
+
+1. Instale as dependências usando o npm:
+
+npm install
+
+2. Execute o projeto em modo de desenvolvimento:
+
+npm run dev
+
+3. Acesse o aplicativo no seu navegador:
+
+   > http://localhost:5173
+
+## Licença
+
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
