@@ -1,7 +1,3 @@
-/* eslint-disable sonarjs/no-duplicate-string */
-/* eslint-disable max-len */
-/* eslint-disable max-lines */
-
 // salgadeiras
 import imgSalgadeiraDourada from '../img/imgSalgadeiras/salgadeira-dourada.jpeg';
 import imgSalgadeiraPrata from '../img/imgSalgadeiras/salgadeira-prata.jpeg';
@@ -192,7 +188,7 @@ export const listProducts = [
         product: 'Sacolas',
         price: '7,80 und',
         img: imgSacolaMinnie,
-        description: 'Frozen',
+        description: 'Minnie',
       },
       {
         product: 'Sacolas',
@@ -799,38 +795,6 @@ export const listProducts = [
         description: 'Pascoa',
       },
     ],
-    Faixas: [
-      {
-        product: 'Faixa gratidão dourada',
-        price: '3,50',
-        img: '../img/faixa-dourada.jpeg',
-        description: 'metalico',
-      },
-      {
-        product: 'Faixa gratidão prata',
-        price: '3,50',
-        img: '../img/faixa-prata.jpeg',
-        description: 'metalico',
-      },
-      {
-        product: 'Faixa parabens prata',
-        price: '3,50',
-        img: '../img/faixa-prata.jpeg',
-        description: 'metalico',
-      },
-      {
-        product: 'Faixa parabens',
-        price: '1,85',
-        img: '../img/faixa-prata.jpeg',
-        description: 'metalico',
-      },
-      {
-        product: 'Faixa feliz aniversario',
-        price: '1,85',
-        img: '../img/faixa-prata.jpeg',
-        description: 'metalico',
-      },
-    ],
     Topos: [
       {
         product: 'Topo Feliz Aniversario',
@@ -854,7 +818,7 @@ export const listProducts = [
         product: 'Topo Feliz Aniversario',
         price: '3,20 | 3 tags',
         img: imgTopoPais,
-        description: 'Azul',
+        description: 'Dia dos pais',
       },
     ],
     Forminhas: [

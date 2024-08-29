@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 30px;
+  background-color: white;
+  width: 300px;
+  height: auto;
+  padding: 15px;
+  border-radius: 25px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.722);
+}
+
+.container img {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.container p {
+color: rgb(0, 0, 0);
+font-size: 20px;
+}

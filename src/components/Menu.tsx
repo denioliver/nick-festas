@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import '../styles/Menu.css';
 import { Link } from 'react-router-dom';
-import { listProducts } from '../ts/listProducts';
-import { listTematicos } from '../ts/listTematicos';
+import { listProducts } from '../API/listProducts';
+import { listTematicos } from '../API/listTematicos';
 
 function Menu() {
   const [menuMobileDisplay, setMenuMobileDisplay] = useState('none');
