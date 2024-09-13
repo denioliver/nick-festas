@@ -20,15 +20,18 @@ import imgCachepotPascoa from '../img/imgCachepot/cachepot-pascoa.jpeg';
 import imgPiramidesGliterPrata from '../img/imgPiramides/piramides-gliter-prata.jpeg';
 import imgPiramidesGliterPrata2 from '../img/imgPiramides/piramides-gliter-prata2.jpeg';
 import imgPiramidesGliterDourada from '../img/imgPiramides/piramides-gliter-dourada.jpeg';
-import imgPiramidesGliterVermelha from '../img/imgPiramides/piramides-gliter-vermelha.jpeg';
+import imgPiramidesGliterVermelha
+  from '../img/imgPiramides/piramides-gliter-vermelha.jpeg';
 import imgPiramidesGliterPink from '../img/imgPiramides/piramides-gliter-pink.jpeg';
 import imgPiramidesVermelha from '../img/imgPiramides/piramides-vermelha.jpeg';
 import imgPiramidesPink from '../img/imgPiramides/piramides-pink.jpeg';
 import imgPiramidesAzulEscuro from '../img/imgPiramides/piramides-azul-escuro.jpeg';
 import imgPiramidesGliterVioleta from '../img/imgPiramides/piramides-gliter-violeta.jpeg';
 import imgPiramidesPRosas from '../img/imgPiramides/piramides-personalizada-rosas.jpeg';
-import imgPiramidesPCoracoes from '../img/imgPiramides/piramides-personalizada-coracoes.jpeg';
-import imgPiramidesPEstrelasV from '../img/imgPiramides/piramides-personalizada-estrelas-violeta.jpeg';
+import imgPiramidesPCoracoes
+  from '../img/imgPiramides/piramides-personalizada-coracoes.jpeg';
+import imgPiramidesPEstrelasV
+  from '../img/imgPiramides/piramides-personalizada-estrelas-violeta.jpeg';
 import imgPiramidesPascoa from '../img/imgPiramides/piramides-cenoura.jpeg';
 // topos
 import imgTopoAniRosa from '../img/imgTopos/topo-aniversario-rosa.jpeg';
@@ -131,7 +134,8 @@ import imgCaixinhaLaranja from '../img/imgCaixinhas/caixinha-2doces-laranja.jpeg
 import imgCaixinhaAmarelo from '../img/imgCaixinhas/caixinha-2doces-amarelo.jpeg';
 import imgCaixinhaAzulBB from '../img/imgCaixinhas/caixinha-2doces-azulbb.jpeg';
 import imgCaixinhaAzulEscuro from '../img/imgCaixinhas/caixinha-2doces-azul-escuro.jpeg';
-import imgCaixinhaVerdeEscuro from '../img/imgCaixinhas/caixinha-2doces-verde-escuro.jpeg';
+import imgCaixinhaVerdeEscuro
+  from '../img/imgCaixinhas/caixinha-2doces-verde-escuro.jpeg';
 import imgCaixinhaVerdebb from '../img/imgCaixinhas/caixinha-2doces-verdebb.jpeg';
 import imgCaixinhaBranca from '../img/imgCaixinhas/caixinha-2doces-branca.jpeg';
 import imgCaixinhaPreta from '../img/imgCaixinhas/caixinha-2doces-preta.jpeg';

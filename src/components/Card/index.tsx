@@ -1,23 +1,19 @@
-
-import style from './card.module.css'
+import style from './card.module.css';
 
 type Product = {
-product: string;
-img: string;
+  product: string;
+  img: string;
 };
 
-const Card = (props: Product) => {
+function Card(props: Product) {
   const { product, img } = props;
 
-	return (
-		<>
-			<div className={ style.container }>
-				<p>{ product }</p>
-				<img src={ img } alt="" />
-			</div>
-		</>
-	);
-};
+  return (
+    <div className={ style.container }>
+      <p>{ product }</p>
+      <img src={ img } alt="" />
+    </div>
+  );
+}
 
 export default Card;
-
