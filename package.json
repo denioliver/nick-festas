@@ -9,7 +9,7 @@
     "lint": "eslint -c .eslintrc.json . ---ext .js,.jsx,.ts,.tsx",
     "preview": "vite preview",
     "predeploy": "npm run build" ,
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emotion/react": "^11.11.3",
@@ -37,5 +37,6 @@
     "gh-pages": "^6.1.1",
     "typescript": "^5.2.2",
     "vite": "^5.0.8"
-  }
+  },
+  "homepage": "https://denioliver.github.io/NickFestas"
 }
